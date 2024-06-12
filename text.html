@@ -1,0 +1,2660 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/start-rating-svg.css" />
+    <link rel="stylesheet" href="./assets/css/star-rating-svg.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="">
+    <header>
+      <div class="bg-secondary">
+        <div class="container text-center py-2">
+          <p class="text-[12px] lg:text-sm text-white">
+            LIMITED OFFER: 30% OFF. Use RABBIT30 at Checkout.
+            <span class="pl-4">23:00:00</span>
+          </p>
+        </div>
+      </div>
+      <div class="lg:py-4 lg:border-b lg:border-neutral-400">
+        <div class="container">
+          <div
+            class="lg:flex flex-wrap lg:flex-nowrap lg:justify-between lg:gap-8"
+          >
+            <div class="order-1 flex items-center space-x-4 lg:-ml-9">
+              <button class="lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+              </button>
+              <a href="">
+                <img
+                  srcset="./assets/images/logo.png 2x"
+                  alt=""
+                  class="w-[119px] lg:w-full"
+                />
+              </a>
+            </div>
+            <form
+              action=""
+              class="w-full order-3 lg:order-2 flex gap-2 border-t mt-4 lg:mt-0 border-neutral-400 pt-4 lg:w-auto lg:pt-0 lg:border-0"
+            >
+              <input
+                type="text"
+                class="py-1 pl-6 pr-1 rounded-full bg-white border border-[#F4F4F4] w-full lg:w-[400px]"
+                placeholder="Search"
+              />
+              <button
+                type="submit"
+                class="bg-primary rounded-full w-[58px] lg:w-12 h-12"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6 text-white mx-auto"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                  />
+                </svg>
+              </button>
+            </form>
+            <div
+              class="order-2 lg:order-3 flex items-center gap-2 lg:gap-6 lg:-mr-9"
+            >
+              <a href="" class="text-sm lg:text-base">Your Account</a> |
+              <button class="relative">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                  />
+                </svg>
+                <span
+                  class="text-[12px] absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full text-white"
+                  >1</span
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hidden lg:block">
+        <div class="container">
+          <nav>
+            <ul
+              class="lg:flex items-center justify-center space-x-10 text-[#46494F]"
+            >
+              <li><a href="" class="block py-4">Shop All</a></li>
+              <li><a href="" class="block py-4">Flower</a></li>
+              <li><a href="" class="block py-4">Edibles</a></li>
+              <li><a href="" class="block py-4">Concentrates</a></li>
+              <li><a href="" class="block py-4">Mushrooms</a></li>
+              <li><a href="" class="block py-4">Promotions/Bundles</a></li>
+              <li><a href="" class="block py-4">Support</a></li>
+              <li><a href="" class="block py-4">Rewards</a></li>
+              <li><a href="" class="block py-4">Blog</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section
+      class="bg-[url('./assets/images/banner-mobile.jpg')] lg:bg-[url('./assets/images/banner-desktop.jpg')] bg-no-repeat bg-cover bg-center text-white min-h-[720px] flex py-10 lg:items-center lg:py-0"
+    >
+      <div class="container">
+        <div class="lg:w-2/3 lg:-ml-6">
+          <span
+            class="block pt-10 text-[#F2BC1B] lg:tracking-[4px] lg:-mt-20 lg:text-sm lg:mb-5 lg:text-base"
+            >BEST SELLER</span
+          >
+          <h1
+            class="text-[32px]/[120%] pt-5 lg:mb-5 lg:text-[64px]/[110%] -tracking-[1.5px] lg:-tracking-[4px]"
+          >
+            BEST DISPENSARY TO BUY WEED ONLINE
+          </h1>
+          <a
+            href=""
+            class="block pt-5 text-lg/[150%] lg:mb-10 lg:text-2xl/[150%]"
+            >Vitamins & Supplements</a
+          >
+          <div class="mb-5 flex items-center pt-10 space-x-4 lg:space-x-8">
+            <span class="text-lg/[150%] lg:text-2xl/[150%]">Get 25% off</span>
+            <span class="items-center">|</span>
+
+            <span class="text-lg/[150%] lg:text-2xl/[150%]">Free Shipping</span>
+          </div>
+          <a href="" class="btn lg:btn-lg">Shop All</a>
+        </div>
+      </div>
+    </section>
+    <section class="bg-[#F2F6F4]">
+      <div class="container">
+        <div class="flex flex-wrap px-5 py-16 lg:-mx-11 lg:px-0">
+          <div class="w-full md:w-1/3">
+            <div class="flex space-x-6">
+              <div
+                class="h-[64px] w-[64px] rounded-full flex items-center justify-center bg-white lg:h-[100px] lg:w-[100px]"
+              >
+                <img
+                  src="./assets/icons/truck-fast.svg"
+                  alt=""
+                  class="w-[34px] h-[34px] lg:w-[54px] lg:h-[54px]"
+                />
+              </div>
+              <div class="">
+                <h2 class="text-xl font-medium lg:text-2xl lg:font-semibold">
+                  Reliable Shipping
+                </h2>
+                <p class="text-sm text-[#717378] max-w-[292px] pt-4">
+                  Green Society provides Canada Post Xpress Shipping right to
+                  your doorstep! You can also opt in for shipping insurance. For
+                  orders over $149, shipping is free!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/3 px-4 mb-8">
+            <div class="flex">
+              <div
+                class="w-16 h-16 rounded-full flex items-center justify-center bg-white lg:w-[100px] lg:h-[100px]"
+              >
+                <img
+                  src="./assets/icons/safe-home.svg"
+                  alt=""
+                  class="w-[34px] h-[34px] lg:w-[54px] lg:h-[54px]"
+                />
+              </div>
+              <div class="ml-4">
+                <h2 class="text-2xl font-semibold">You’re Safe With Us</h2>
+                <p class="text-sm text-[#717378] max-w-[292px] pt-6">
+                  Our secure payment system accepts the most common forms of
+                  payments making the checkout process quicker! The payments we
+                  accept are debit, all major credit cards, and cryptocurrency.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/3 px-4 mb-8">
+            <div class="flex">
+              <div
+                class="w-16 h-16 rounded-full flex items-center justify-center bg-white lg:w-[100px] lg:h-[100px]"
+              >
+                <img
+                  src="./assets/icons/coin.svg"
+                  alt=""
+                  class="w-[34px] h-[34px] lg:w-[54px] lg:h-[54px]"
+                />
+              </div>
+              <div class="ml-4">
+                <h2 class="text-2xl font-semibold">Best Quality & Pricing</h2>
+                <p class="text-sm text-[#717378] max-w-[292px] pt-6">
+                  Here at Green Society, we take pride in the quality of our
+                  products and service. Our prices are set to ensure you receive
+                  your medication at a reasonable price and safely
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="px-6 pt-16">
+        <h2
+          class="main-title text-center text-8 font-semibold lg:max-w-70 lg:text-16"
+        >
+          BEST DISPENSARY TO BUY<br class="hidden lg:block" />
+          WEED ONLINE IN CANADA
+        </h2>
+      </div>
+      <div class="mb-10">
+        <div class="container my-10 lg:mb-[64px]">
+          <ul
+            class="flex overflow-x-auto whitespace-nowrap lg:mt-16 lg:grid lg:grid-cols-3 gap-8 lg:overflow-hidden"
+          >
+            <li class="flex-none">
+              <a
+                href=""
+                class="block px-5 text-[14px] h-[40px] leading-[40px] font-medium text-[#05422C] hover:bg-[#F2F6F4] border border-[#05422C] rounded-full text-center lg:h-[48px] lg:leading-[48px] transition ease-in-out duration-500"
+                >Best Sellers</a
+              >
+            </li>
+            <li class="flex-none">
+              <a
+                href=""
+                class="block px-5 h-[40px] leading-[40px] font-medium text-[#05422C] hover:bg-[#F2F6F4] border border-[#05422C] rounded-full text-center lg:h-[48px] lg:leading-[48px] transition ease-in-out duration-500"
+                >Bundles & Promotions</a
+              >
+            </li>
+            <li class="flex-none">
+              <a
+                href=""
+                class="block px-5 h-[40px] leading-[40px] font-medium text-[#05422C] hover:bg-[#F2F6F4] border border-[#05422C] rounded-full text-center lg:h-[48px] lg:leading-[48px] transition ease-in-out duration-500"
+                >On Sale</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="lg:grid grid-cols-12 gap-8 ml-6">
+          <div class="col-span-12 lg:col-span-4 lg:flex items-end justify-end">
+            <div
+              class="bg-secondary text-center rounded-2xl px-5 lg:px-10 pt-[35px] lg:w-[379px] lg:pb-[84px] lg:pt-[122px]"
+            >
+              <div class="mb-6">
+                <img
+                  src="assets/images/san pham.png"
+                  alt=""
+                  class="w-[151px] h-[151px] mx-auto lg:-mt-10 lg:w-[213px] lg:h-[213px]"
+                />
+              </div>
+              <h3 class="mb-2">
+                <a href="" class="text-xl text-white">Shop our Best Sellers</a>
+              </h3>
+              <p class="mb-6 text-sm text-gray-400 w-[230px] mx-auto">
+                Lorem ipsum dolor sit amet consectetur. Ullamcorper ipsum varius
+                lorem blandit lectus magnis feugiat.
+              </p>
+              <a href="" class="text-sm text-[#17AF26] underline">View All</a>
+            </div>
+          </div>
+          <div class="col-span-12 lg:col-span-8 flex space-x-8">
+            <div class="swiper best-seller">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide w-[291px] bg-white">
+                  <div
+                    class="relative bg-[#F4F4F4] h-[240px] flex items-center justify-center rounded-xl mb-5"
+                  >
+                    <img
+                      src="assets/images/san pham.png"
+                      alt=""
+                      class="w-[164px]"
+                    />
+                    <div
+                      class="absolute flex items-center justify-center opacity-0 inset-0 hover:opacity-100 transition-opacity duration-300"
+                    >
+                      <a
+                        href=""
+                        class="bg-opacity-50 bg-[#05422C] rounded-full text-white px-8 py-5 text-[14px]"
+                      >
+                        Out Of Stock</a
+                      >
+                    </div>
+                    <div
+                      class="absolute top-0 left-0 px-4 py-2 text-sm text-white bg-[#F2BC1B] rounded-tl-xl"
+                    >
+                      $60 ounce
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <p class="text-[#9D9EA2] text-[14px] mb-2">FLOWER</p>
+                    <h3 class="text-[18px] mb-2">
+                      2 Oz Deal Watermelon Zkittles + Purple Gushers
+                    </h3>
+                    <div
+                      class="flex justify-center items-center space-x-2 text-[14px] text-center mb-4"
+                    >
+                      <span class="flex">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 24 24"
+                          fill="#FFD700"
+                          class="lucide lucide-star"
+                        >
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                          /></svg
+                        >4.6/5</span
+                      >
+                      <span>|</span>
+                      <span
+                        >135
+                        <span class="text-[#C8C9CB] pl-1">Reviews</span></span
+                      >
+                    </div>
+                    <div class="">
+                      <span
+                        class="px-5 py-2 bg-[#F2F6F4] text-[#05422C] text-[12px] rounded-sm"
+                        >Indica 70%</span
+                      >
+                    </div>
+                    <div
+                      class="flex items-center justify-center space-x-2 mt-5"
+                    >
+                      <span class="text-[#EB2606] text-[16px]">$80.00</span>
+                      <span class="text-[#C8C9CB] text-[14px]">/</span>
+                      <span class="text-[#C8C9CB] text-[14px]">gram</span>
+                    </div>
+                    <div
+                      class="flex items-center justify-center space-x-2 mt-5"
+                    >
+                      <button
+                        class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                      >
+                        28g
+                      </button>
+                      <button
+                        class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                      >
+                        1/2lb
+                      </button>
+                      <button
+                        class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                      >
+                        1/4lb
+                      </button>
+                    </div>
+                    <div class="text-center mt-7">
+                      <button
+                        class="text-white bg-[#17AF26] rounded-full px-6 py-2 text-[14px]"
+                      >
+                        Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide w-[291px] bg-white">
+                  <div
+                    class="relative bg-[#F4F4F4] h-[240px] flex items-center justify-center rounded-xl mb-5"
+                  >
+                    <img
+                      src="assets/images/san pham.png"
+                      alt=""
+                      class="w-[164px]"
+                    />
+                    <div
+                      class="absolute flex items-center justify-center opacity-0 inset-0 hover:opacity-100 transition-opacity duration-300"
+                    >
+                      <a
+                        href=""
+                        class="bg-opacity-50 bg-[#05422C] rounded-full text-white px-8 py-5 text-[14px]"
+                      >
+                        Out Of Stock</a
+                      >
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <p class="text-[#9D9EA2] text-[14px] mb-2">FLOWER</p>
+                    <h3 class="text-[18px] mb-2">
+                      2 Oz Deal Watermelon Zkittles + Purple Gushers
+                    </h3>
+                    <div
+                      class="flex justify-center items-center space-x-2 text-[14px] text-center mb-4"
+                    >
+                      <span class="flex">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 24 24"
+                          fill="#FFD700"
+                          class="lucide lucide-star"
+                        >
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                          /></svg
+                        >4.6/5</span
+                      >
+                      <span>|</span>
+                      <span
+                        >135
+                        <span class="text-[#C8C9CB] pl-1">Reviews</span></span
+                      >
+                    </div>
+                    <div class="">
+                      <span
+                        class="px-5 py-2 bg-[#F2F6F4] text-[#05422C] text-[12px] rounded-sm"
+                        >Indica 70%</span
+                      >
+                    </div>
+                    <div
+                      class="flex items-center justify-center space-x-2 mt-5"
+                    >
+                      <span class="text-[#EB2606] text-[16px]">$80.00</span>
+                      <span class="text-[#C8C9CB] text-[14px]">/</span>
+                      <span class="text-[#C8C9CB] text-[14px]">gram</span>
+                    </div>
+                    <div
+                      class="flex items-center justify-center space-x-2 mt-5"
+                    >
+                      <button
+                        class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                      >
+                        28g
+                      </button>
+                      <button
+                        class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                      >
+                        1/2lb
+                      </button>
+                      <button
+                        class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                      >
+                        1/4lb
+                      </button>
+                    </div>
+                    <div class="text-center mt-7">
+                      <button
+                        class="text-white bg-[#17AF26] rounded-full px-6 py-2 text-[14px]"
+                      >
+                        Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide w-[291px] bg-white">
+                  <div
+                    class="relative bg-[#F4F4F4] h-[240px] flex items-center justify-center rounded-xl mb-5"
+                  >
+                    <img
+                      src="assets/images/san pham.png"
+                      alt=""
+                      class="w-[164px]"
+                    />
+                    <div
+                      class="absolute flex items-center justify-center opacity-0 inset-0 hover:opacity-100 transition-opacity duration-300"
+                    >
+                      <a
+                        href=""
+                        class="bg-opacity-50 bg-[#05422C] rounded-full text-white px-8 py-5 text-[14px]"
+                      >
+                        Out Of Stock</a
+                      >
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <p class="text-[#9D9EA2] text-[14px] mb-2">FLOWER</p>
+                    <h3 class="text-[18px] mb-2">
+                      2 Oz Deal Watermelon Zkittles + Purple Gushers
+                    </h3>
+                    <div
+                      class="flex justify-center items-center space-x-2 text-[14px] text-center mb-4"
+                    >
+                      <span class="flex">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 24 24"
+                          fill="#FFD700"
+                          class="lucide lucide-star"
+                        >
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                          /></svg
+                        >4.6/5</span
+                      >
+                      <span>|</span>
+                      <span
+                        >135
+                        <span class="text-[#C8C9CB] pl-1">Reviews</span></span
+                      >
+                    </div>
+                    <div class="">
+                      <span
+                        class="px-5 py-2 bg-[#F2F6F4] text-[#05422C] text-[12px] rounded-sm"
+                        >Indica 70%</span
+                      >
+                    </div>
+                    <div
+                      class="flex items-center justify-center space-x-2 mt-5"
+                    >
+                      <span class="text-[#EB2606] text-[16px]">$80.00</span>
+                      <span class="text-[#C8C9CB] text-[14px]">/</span>
+                      <span class="text-[#C8C9CB] text-[14px]">gram</span>
+                    </div>
+                    <div
+                      class="flex items-center justify-center space-x-2 mt-5"
+                    >
+                      <button
+                        class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                      >
+                        28g
+                      </button>
+                      <button
+                        class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                      >
+                        1/2lb
+                      </button>
+                      <button
+                        class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                      >
+                        1/4lb
+                      </button>
+                    </div>
+                    <div class="text-center mt-7">
+                      <button
+                        class="text-white bg-[#17AF26] rounded-full px-6 py-2 text-[14px]"
+                      >
+                        Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide w-[291px] bg-white">
+                  <div
+                    class="relative bg-[#F4F4F4] h-[240px] flex items-center justify-center rounded-xl mb-5"
+                  >
+                    <img
+                      src="assets/images/san pham.png"
+                      alt=""
+                      class="w-[164px]"
+                    />
+                    <div
+                      class="absolute flex items-center justify-center opacity-0 inset-0 hover:opacity-100 transition-opacity duration-300"
+                    >
+                      <a
+                        href=""
+                        class="bg-opacity-50 bg-[#05422C] rounded-full text-white px-8 py-5 text-[14px]"
+                      >
+                        Out Of Stock</a
+                      >
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <p class="text-[#9D9EA2] text-[14px] mb-2">FLOWER</p>
+                    <h3 class="text-[18px] mb-2">
+                      2 Oz Deal Watermelon Zkittles + Purple Gushers
+                    </h3>
+                    <div
+                      class="flex justify-center items-center space-x-2 text-[14px] text-center mb-4"
+                    >
+                      <span class="flex">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 24 24"
+                          fill="#FFD700"
+                          class="lucide lucide-star"
+                        >
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                          /></svg
+                        >4.6/5</span
+                      >
+                      <span>|</span>
+                      <span
+                        >135
+                        <span class="text-[#C8C9CB] pl-1">Reviews</span></span
+                      >
+                    </div>
+                    <div class="">
+                      <span
+                        class="px-5 py-2 bg-[#F2F6F4] text-[#05422C] text-[12px] rounded-sm"
+                        >Indica 70%</span
+                      >
+                    </div>
+                    <div
+                      class="flex items-center justify-center space-x-2 mt-5"
+                    >
+                      <span class="text-[#EB2606] text-[16px]">$80.00</span>
+                      <span class="text-[#C8C9CB] text-[14px]">/</span>
+                      <span class="text-[#C8C9CB] text-[14px]">gram</span>
+                    </div>
+                    <div
+                      class="flex items-center justify-center space-x-2 mt-5"
+                    >
+                      <button
+                        class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                      >
+                        28g
+                      </button>
+                      <button
+                        class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                      >
+                        1/2lb
+                      </button>
+                      <button
+                        class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                      >
+                        1/4lb
+                      </button>
+                    </div>
+                    <div class="text-center mt-7">
+                      <button
+                        class="text-white bg-[#17AF26] rounded-full px-6 py-2 text-[14px]"
+                      >
+                        Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide w-[291px] bg-white">
+                  <div
+                    class="relative bg-[#F4F4F4] h-[240px] flex items-center justify-center rounded-xl mb-5"
+                  >
+                    <img
+                      src="assets/images/san pham.png"
+                      alt=""
+                      class="w-[164px]"
+                    />
+                    <div
+                      class="absolute flex items-center justify-center opacity-0 inset-0 hover:opacity-100 transition-opacity duration-300"
+                    >
+                      <a
+                        href=""
+                        class="bg-opacity-50 bg-[#05422C] rounded-full text-white px-8 py-5 text-[14px]"
+                      >
+                        Out Of Stock</a
+                      >
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <p class="text-[#9D9EA2] text-[14px] mb-2">FLOWER</p>
+                    <h3 class="text-[18px] mb-2">
+                      2 Oz Deal Watermelon Zkittles + Purple Gushers
+                    </h3>
+                    <div
+                      class="flex justify-center items-center space-x-2 text-[14px] text-center mb-4"
+                    >
+                      <span class="flex">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="18"
+                          height="18"
+                          viewBox="0 0 24 24"
+                          fill="#FFD700"
+                          class="lucide lucide-star"
+                        >
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                          /></svg
+                        >4.6/5</span
+                      >
+                      <span>|</span>
+                      <span
+                        >135
+                        <span class="text-[#C8C9CB] pl-1">Reviews</span></span
+                      >
+                    </div>
+                    <div class="">
+                      <span
+                        class="px-5 py-2 bg-[#F2F6F4] text-[#05422C] text-[12px] rounded-sm"
+                        >Indica 70%</span
+                      >
+                    </div>
+                    <div
+                      class="flex items-center justify-center space-x-2 mt-5"
+                    >
+                      <span class="text-[#EB2606] text-[16px]">$80.00</span>
+                      <span class="text-[#C8C9CB] text-[14px]">/</span>
+                      <span class="text-[#C8C9CB] text-[14px]">gram</span>
+                    </div>
+                    <div
+                      class="flex items-center justify-center space-x-2 mt-5"
+                    >
+                      <button
+                        class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                      >
+                        28g
+                      </button>
+                      <button
+                        class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                      >
+                        1/2lb
+                      </button>
+                      <button
+                        class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                      >
+                        1/4lb
+                      </button>
+                    </div>
+                    <div class="text-center mt-7">
+                      <button
+                        class="text-white bg-[#17AF26] rounded-full px-6 py-2 text-[14px]"
+                      >
+                        Add to Cart
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-[64px] lg:pt-0">
+      <div class="px-6 pt-20 lg:px-0">
+        <h2
+          class="container main-title text-start font-semibold lg:pt-5 lg:-ml-3lg:max-w-70 lg:text-16 lg:ml-[106px]"
+        >
+          CUSTOMER TESTIMONIALS
+        </h2>
+      </div>
+      <div class="my-16">
+        <div class="lg:grid grid-cols-12 gap-8 ml-6">
+          <div class="col-span-12 lg:col-span-4 lg:flex items-end justify-end">
+            <div
+              class="bg-secondary text-start rounded-2xl pt-[35px] lg:w-[379px]"
+            >
+              <div class="px-10 mx-auto">
+                <h3 class="text-white text-[32px] font-semibold">
+                  VOTED BEST ONLINE DISPENSARY IN CANADA
+                </h3>
+                <div class="py-6">
+                  <hr class="h-[1px] border border-[#346654]" />
+                </div>
+                <a href="" class="text-[#82A095] text-[32px] mt-6">Google</a>
+                <div class="pt-6">
+                  <p class="text-white">EXELLENCET</p>
+                  <div class="flex space-x-2 text-[14px] text-center my-4">
+                    <div class="flex space-x-7">
+                      <div class="flex">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          fill="#FFD700"
+                          class="lucide lucide-star"
+                        >
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          fill="#FFD700"
+                          class="lucide lucide-star"
+                        >
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          fill="#FFD700"
+                          class="lucide lucide-star"
+                        >
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          fill="#FFD700"
+                          class="lucide lucide-star"
+                        >
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          viewBox="0 0 24 24"
+                          fill="#FFD700"
+                          class="lucide lucide-star"
+                        >
+                          <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                          />
+                        </svg>
+                      </div>
+
+                      <span class="text-white">|</span>
+                      <span class="text-white text-[16px]"
+                        >on 135
+                        <span class="text-[#648A7C] pl-1">Reviews</span></span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-12 lg:col-span-8 flex space-x-8">
+            <div class="swiper testimonials">
+              <div class="swiper-wrapper">
+                <div
+                  class="swiper-slide relative lg:w-[379px] lg:h-[424px] border-[1px] rounded-xl"
+                >
+                  <div class="text-start px-10 py-10">
+                    <div class="flex">
+                      <img
+                        src="https://picsum.photos//36/36"
+                        alt=""
+                        class="w-[36px] h-[36px] rounded-full"
+                      />
+                      <p
+                        class="text-[16px] pl-5 flex justify-center items-center"
+                      >
+                        Vikki Starr
+                      </p>
+                    </div>
+                    <hr class="border mt-8" />
+                    <div class="my-rating mt-8 mb-3"></div>
+                    <div class="text-[16px]">
+                      Absolutely love TopShelfBC; affordable on any budget and
+                      such fast delivery, straight to my door! I recommend them
+                      to all my friends and family for their 420 needs.
+                    </div>
+                    <div
+                      class="absolute bottom-10 left-10 text-[14px] text-[#9D9EA2]"
+                    >
+                      January 15, 2023
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide relative lg:w-[379px] lg:h-[424px] border-[1px] rounded-xl"
+                >
+                  <div class="text-start px-10 py-10">
+                    <div class="flex">
+                      <img
+                        src="https://picsum.photos//36/36"
+                        alt=""
+                        class="w-[36px] h-[36px] rounded-full"
+                      />
+                      <p
+                        class="text-[16px] pl-5 flex justify-center items-center"
+                      >
+                        Vikki Starr
+                      </p>
+                    </div>
+                    <hr class="border mt-8" />
+                    <div class="my-rating mt-8 mb-3"></div>
+                    <div class="text-[16px]">
+                      Absolutely love TopShelfBC; affordable on any budget and
+                      such fast delivery, straight to my door! I recommend them
+                      to all my friends and family for their 420 needs.
+                    </div>
+                    <div
+                      class="absolute bottom-10 left-10 text-[14px] text-[#9D9EA2]"
+                    >
+                      January 15, 2023
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide relative lg:w-[379px] lg:h-[424px] border-[1px] rounded-xl"
+                >
+                  <div class="text-start px-10 py-10">
+                    <div class="flex">
+                      <img
+                        src="https://picsum.photos//36/36"
+                        alt=""
+                        class="w-[36px] h-[36px] rounded-full"
+                      />
+                      <p
+                        class="text-[16px] pl-5 flex justify-center items-center"
+                      >
+                        Vikki Starr
+                      </p>
+                    </div>
+                    <hr class="border mt-8" />
+                    <div class="my-rating mt-8 mb-3"></div>
+                    <div class="text-[16px]">
+                      Absolutely love TopShelfBC; affordable on any budget and
+                      such fast delivery, straight to my door! I recommend them
+                      to all my friends and family for their 420 needs.
+                    </div>
+                    <div
+                      class="absolute bottom-10 left-10 text-[14px] text-[#9D9EA2]"
+                    >
+                      January 15, 2023
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="swiper-slide relative lg:w-[379px] lg:h-[424px] border-[1px] rounded-xl"
+                >
+                  <div class="text-start px-10 py-10">
+                    <div class="flex">
+                      <img
+                        src="https://picsum.photos//36/36"
+                        alt=""
+                        class="w-[36px] h-[36px] rounded-full"
+                      />
+                      <p
+                        class="text-[16px] pl-5 flex justify-center items-center"
+                      >
+                        Vikki Starr
+                      </p>
+                    </div>
+                    <hr class="border mt-8" />
+                    <div class="my-rating mt-8 mb-3"></div>
+                    <div class="text-[16px]">
+                      Absolutely love TopShelfBC; affordable on any budget and
+                      such fast delivery, straight to my door! I recommend them
+                      to all my friends and family for their 420 needs.
+                    </div>
+                    <div
+                      class="absolute bottom-10 left-10 text-[14px] text-[#9D9EA2]"
+                    >
+                      January 15, 2023
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-[64px] lg:pb-[100px] lg:pt-0">
+      <div class="container">
+        <div class="lg:text-[64px] lg:pt-5 lg:font-semibold lg:w-9/12">
+          CHOOSE YOUR WEED
+        </div>
+        <div
+          class="border-b-[1px] pb-[32px] lg:flex lg:items-center lg:space-x-8 lg:mt-12"
+        >
+          <div class="text-[24px]">Filter by Interest</div>
+          <div class="flex-grow">
+            <ul
+              class="flex overflow-x-auto whitespace-nowrap lg:mt-0 gap-8 lg:overflow-hidden"
+            >
+              <li class="flex-none">
+                <a
+                  href=""
+                  class="block px-5 text-[14px] h-[40px] leading-[40px] font-medium text-[#05422C] hover:bg-[#F2F6F4] border border-[#05422C] rounded-full text-center lg:h-[48px] lg:leading-[48px] transition ease-in-out duration-500"
+                  >Flowers</a
+                >
+              </li>
+              <li class="flex-none">
+                <a
+                  href=""
+                  class="block px-5 h-[40px] leading-[40px] font-medium text-[#05422C] hover:bg-[#F2F6F4] border border-[#05422C] rounded-full text-center lg:h-[48px] lg:leading-[48px] transition ease-in-out duration-500"
+                  >Mushrooms</a
+                >
+              </li>
+              <li class="flex-none">
+                <a
+                  href=""
+                  class="block px-5 h-[40px] leading-[40px] font-medium text-[#05422C] hover:bg-[#F2F6F4] border border-[#05422C] rounded-full text-center lg:h-[48px] lg:leading-[48px] transition ease-in-out duration-500"
+                  >Concentrate</a
+                >
+              </li>
+              <li class="flex-none">
+                <a
+                  href=""
+                  class="block px-5 h-[40px] leading-[40px] font-medium text-[#05422C] hover:bg-[#F2F6F4] border border-[#05422C] rounded-full text-center lg:h-[48px] lg:leading-[48px] transition ease-in-out duration-500"
+                  >Edibles</a
+                >
+              </li>
+              <li class="flex-none">
+                <a
+                  href=""
+                  class="block px-5 h-[40px] leading-[40px] font-medium text-[#05422C] hover:bg-[#F2F6F4] border border-[#05422C] rounded-full text-center lg:h-[48px] lg:leading-[48px] transition ease-in-out duration-500"
+                  >Shop All Weed</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="lg:grid lg:grid-cols-4 lg:gap-6 lg:gap-y-8 lg:mt-14">
+          <div class="w-[280px] bg-white">
+            <div
+              class="relative bg-[#F4F4F4] h-[240px] flex items-center justify-center rounded-xl mb-5"
+            >
+              <img src="assets/images/san pham.png" alt="" class="w-[164px]" />
+              <div
+                class="absolute flex items-center justify-center opacity-0 inset-0 hover:opacity-100 transition-opacity duration-300"
+              >
+                <a
+                  href=""
+                  class="bg-opacity-50 bg-[#05422C] rounded-full text-white px-8 py-5 text-[14px]"
+                >
+                  Out Of Stock</a
+                >
+              </div>
+              <div
+                class="absolute top-0 left-0 px-4 py-2 text-sm text-white bg-[#F2BC1B] rounded-tl-xl"
+              >
+                $60 ounce
+              </div>
+            </div>
+            <div class="text-center">
+              <p class="text-[#9D9EA2] text-[14px] mb-2">FLOWER</p>
+              <h3 class="text-[18px] mb-2">
+                2 Oz Deal Watermelon Zkittles + Purple Gushers
+              </h3>
+              <div
+                class="flex justify-center items-center space-x-2 text-[14px] text-center mb-4"
+              >
+                <span class="flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="#FFD700"
+                    class="lucide lucide-star"
+                  >
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                    /></svg
+                  >4.6/5</span
+                >
+                <span>|</span>
+                <span
+                  >135 <span class="text-[#C8C9CB] pl-1">Reviews</span></span
+                >
+              </div>
+              <div class="">
+                <span
+                  class="px-5 py-2 bg-[#F2F6F4] text-[#05422C] text-[12px] rounded-sm"
+                  >Indica 70%</span
+                >
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <span class="text-[#EB2606] text-[16px]">$80.00</span>
+                <span class="text-[#C8C9CB] text-[14px]">/</span>
+                <span class="text-[#C8C9CB] text-[14px]">gram</span>
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  28g
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/2lb
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/4lb
+                </button>
+              </div>
+              <div class="text-center mt-7">
+                <button
+                  class="text-white bg-[#17AF26] rounded-full px-6 py-2 text-[14px]"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-[280px] bg-white">
+            <div
+              class="relative bg-[#F4F4F4] h-[240px] flex items-center justify-center rounded-xl mb-5"
+            >
+              <img src="assets/images/san pham.png" alt="" class="w-[164px]" />
+              <div
+                class="absolute flex items-center justify-center opacity-0 inset-0 hover:opacity-100 transition-opacity duration-300"
+              >
+                <a
+                  href=""
+                  class="bg-opacity-50 bg-[#05422C] rounded-full text-white px-8 py-5 text-[14px]"
+                >
+                  Out Of Stock</a
+                >
+              </div>
+            </div>
+            <div class="text-center">
+              <p class="text-[#9D9EA2] text-[14px] mb-2">FLOWER</p>
+              <h3 class="text-[18px] mb-2">
+                2 Oz Deal Watermelon Zkittles + Purple Gushers
+              </h3>
+              <div
+                class="flex justify-center items-center space-x-2 text-[14px] text-center mb-4"
+              >
+                <span class="flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="#FFD700"
+                    class="lucide lucide-star"
+                  >
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                    /></svg
+                  >4.6/5</span
+                >
+                <span>|</span>
+                <span
+                  >135 <span class="text-[#C8C9CB] pl-1">Reviews</span></span
+                >
+              </div>
+              <div class="">
+                <span
+                  class="px-5 py-2 bg-[#F2F6F4] text-[#05422C] text-[12px] rounded-sm"
+                  >Indica 70%</span
+                >
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <span class="text-[#EB2606] text-[16px]">$80.00</span>
+                <span class="text-[#C8C9CB] text-[14px]">/</span>
+                <span class="text-[#C8C9CB] text-[14px]">gram</span>
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  28g
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/2lb
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/4lb
+                </button>
+              </div>
+              <div class="text-center mt-7">
+                <button
+                  class="text-white bg-[#17AF26] rounded-full px-6 py-2 text-[14px]"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-[280px] bg-white">
+            <div
+              class="relative bg-[#F4F4F4] h-[240px] flex items-center justify-center rounded-xl mb-5"
+            >
+              <img src="assets/images/san pham.png" alt="" class="w-[164px]" />
+              <div
+                class="absolute flex items-center justify-center opacity-0 inset-0 hover:opacity-100 transition-opacity duration-300"
+              >
+                <a
+                  href=""
+                  class="bg-opacity-50 bg-[#05422C] rounded-full text-white px-8 py-5 text-[14px]"
+                >
+                  Out Of Stock</a
+                >
+              </div>
+            </div>
+            <div class="text-center">
+              <p class="text-[#9D9EA2] text-[14px] mb-2">FLOWER</p>
+              <h3 class="text-[18px] mb-2">
+                2 Oz Deal Watermelon Zkittles + Purple Gushers
+              </h3>
+              <div
+                class="flex justify-center items-center space-x-2 text-[14px] text-center mb-4"
+              >
+                <span class="flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="#FFD700"
+                    class="lucide lucide-star"
+                  >
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                    /></svg
+                  >4.6/5</span
+                >
+                <span>|</span>
+                <span
+                  >135 <span class="text-[#C8C9CB] pl-1">Reviews</span></span
+                >
+              </div>
+              <div class="">
+                <span
+                  class="px-5 py-2 bg-[#F2F6F4] text-[#05422C] text-[12px] rounded-sm"
+                  >Indica 70%</span
+                >
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <span class="text-[#EB2606] text-[16px]">$80.00</span>
+                <span class="text-[#C8C9CB] text-[14px]">/</span>
+                <span class="text-[#C8C9CB] text-[14px]">gram</span>
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  28g
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/2lb
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/4lb
+                </button>
+              </div>
+              <div class="text-center mt-7">
+                <button
+                  class="text-white bg-[#17AF26] rounded-full px-6 py-2 text-[14px]"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-[280px] bg-white">
+            <div
+              class="relative bg-[#F4F4F4] h-[240px] flex items-center justify-center rounded-xl mb-5"
+            >
+              <img src="assets/images/san pham.png" alt="" class="w-[164px]" />
+              <div
+                class="absolute flex items-center justify-center opacity-0 inset-0 hover:opacity-100 transition-opacity duration-300"
+              >
+                <a
+                  href=""
+                  class="bg-opacity-50 bg-[#05422C] rounded-full text-white px-8 py-5 text-[14px]"
+                >
+                  Out Of Stock</a
+                >
+              </div>
+            </div>
+            <div class="text-center">
+              <p class="text-[#9D9EA2] text-[14px] mb-2">FLOWER</p>
+              <h3 class="text-[18px] mb-2">
+                2 Oz Deal Watermelon Zkittles + Purple Gushers
+              </h3>
+              <div
+                class="flex justify-center items-center space-x-2 text-[14px] text-center mb-4"
+              >
+                <span class="flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="#FFD700"
+                    class="lucide lucide-star"
+                  >
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                    /></svg
+                  >4.6/5</span
+                >
+                <span>|</span>
+                <span
+                  >135 <span class="text-[#C8C9CB] pl-1">Reviews</span></span
+                >
+              </div>
+              <div class="">
+                <span
+                  class="px-5 py-2 bg-[#F2F6F4] text-[#05422C] text-[12px] rounded-sm"
+                  >Indica 70%</span
+                >
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <span class="text-[#EB2606] text-[16px]">$80.00</span>
+                <span class="text-[#C8C9CB] text-[14px]">/</span>
+                <span class="text-[#C8C9CB] text-[14px]">gram</span>
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  28g
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/2lb
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/4lb
+                </button>
+              </div>
+              <div class="text-center mt-7">
+                <button
+                  class="text-white bg-[#17AF26] rounded-full px-6 py-2 text-[14px]"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-[280px] bg-white">
+            <div
+              class="relative bg-[#F4F4F4] h-[240px] flex items-center justify-center rounded-xl mb-5"
+            >
+              <img src="assets/images/san pham.png" alt="" class="w-[164px]" />
+              <div
+                class="absolute flex items-center justify-center opacity-0 inset-0 hover:opacity-100 transition-opacity duration-300"
+              >
+                <a
+                  href=""
+                  class="bg-opacity-50 bg-[#05422C] rounded-full text-white px-8 py-5 text-[14px]"
+                >
+                  Out Of Stock</a
+                >
+              </div>
+              <div
+                class="absolute top-0 left-0 px-4 py-2 text-sm text-white bg-[#F2BC1B] rounded-tl-xl"
+              >
+                $60 ounce
+              </div>
+            </div>
+            <div class="text-center">
+              <p class="text-[#9D9EA2] text-[14px] mb-2">FLOWER</p>
+              <h3 class="text-[18px] mb-2">
+                2 Oz Deal Watermelon Zkittles + Purple Gushers
+              </h3>
+              <div
+                class="flex justify-center items-center space-x-2 text-[14px] text-center mb-4"
+              >
+                <span class="flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="#FFD700"
+                    class="lucide lucide-star"
+                  >
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                    /></svg
+                  >4.6/5</span
+                >
+                <span>|</span>
+                <span
+                  >135 <span class="text-[#C8C9CB] pl-1">Reviews</span></span
+                >
+              </div>
+              <div class="">
+                <span
+                  class="px-5 py-2 bg-[#F2F6F4] text-[#05422C] text-[12px] rounded-sm"
+                  >Indica 70%</span
+                >
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <span class="text-[#EB2606] text-[16px]">$80.00</span>
+                <span class="text-[#C8C9CB] text-[14px]">/</span>
+                <span class="text-[#C8C9CB] text-[14px]">gram</span>
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  28g
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/2lb
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/4lb
+                </button>
+              </div>
+              <div class="text-center mt-7">
+                <button
+                  class="text-white bg-[#17AF26] rounded-full px-6 py-2 text-[14px]"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-[280px] bg-white">
+            <div
+              class="relative bg-[#F4F4F4] h-[240px] flex items-center justify-center rounded-xl mb-5"
+            >
+              <img src="assets/images/san pham.png" alt="" class="w-[164px]" />
+              <div
+                class="absolute flex items-center justify-center opacity-0 inset-0 hover:opacity-100 transition-opacity duration-300"
+              >
+                <a
+                  href=""
+                  class="bg-opacity-50 bg-[#05422C] rounded-full text-white px-8 py-5 text-[14px]"
+                >
+                  Out Of Stock</a
+                >
+              </div>
+            </div>
+            <div class="text-center">
+              <p class="text-[#9D9EA2] text-[14px] mb-2">FLOWER</p>
+              <h3 class="text-[18px] mb-2">
+                2 Oz Deal Watermelon Zkittles + Purple Gushers
+              </h3>
+              <div
+                class="flex justify-center items-center space-x-2 text-[14px] text-center mb-4"
+              >
+                <span class="flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="#FFD700"
+                    class="lucide lucide-star"
+                  >
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                    /></svg
+                  >4.6/5</span
+                >
+                <span>|</span>
+                <span
+                  >135 <span class="text-[#C8C9CB] pl-1">Reviews</span></span
+                >
+              </div>
+              <div class="">
+                <span
+                  class="px-5 py-2 bg-[#F2F6F4] text-[#05422C] text-[12px] rounded-sm"
+                  >Indica 70%</span
+                >
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <span class="text-[#EB2606] text-[16px]">$80.00</span>
+                <span class="text-[#C8C9CB] text-[14px]">/</span>
+                <span class="text-[#C8C9CB] text-[14px]">gram</span>
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  28g
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/2lb
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/4lb
+                </button>
+              </div>
+              <div class="text-center mt-7">
+                <button
+                  class="text-white bg-[#17AF26] rounded-full px-6 py-2 text-[14px]"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-[280px] bg-white">
+            <div
+              class="relative bg-[#F4F4F4] h-[240px] flex items-center justify-center rounded-xl mb-5"
+            >
+              <img src="assets/images/san pham.png" alt="" class="w-[164px]" />
+              <div
+                class="absolute flex items-center justify-center opacity-0 inset-0 hover:opacity-100 transition-opacity duration-300"
+              >
+                <a
+                  href=""
+                  class="bg-opacity-50 bg-[#05422C] rounded-full text-white px-8 py-5 text-[14px]"
+                >
+                  Out Of Stock</a
+                >
+              </div>
+            </div>
+            <div class="text-center">
+              <p class="text-[#9D9EA2] text-[14px] mb-2">FLOWER</p>
+              <h3 class="text-[18px] mb-2">
+                2 Oz Deal Watermelon Zkittles + Purple Gushers
+              </h3>
+              <div
+                class="flex justify-center items-center space-x-2 text-[14px] text-center mb-4"
+              >
+                <span class="flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="#FFD700"
+                    class="lucide lucide-star"
+                  >
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                    /></svg
+                  >4.6/5</span
+                >
+                <span>|</span>
+                <span
+                  >135 <span class="text-[#C8C9CB] pl-1">Reviews</span></span
+                >
+              </div>
+              <div class="">
+                <span
+                  class="px-5 py-2 bg-[#F2F6F4] text-[#05422C] text-[12px] rounded-sm"
+                  >Indica 70%</span
+                >
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <span class="text-[#EB2606] text-[16px]">$80.00</span>
+                <span class="text-[#C8C9CB] text-[14px]">/</span>
+                <span class="text-[#C8C9CB] text-[14px]">gram</span>
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  28g
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/2lb
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/4lb
+                </button>
+              </div>
+              <div class="text-center mt-7">
+                <button
+                  class="text-white bg-[#17AF26] rounded-full px-6 py-2 text-[14px]"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-[280px] bg-white">
+            <div
+              class="relative bg-[#F4F4F4] h-[240px] flex items-center justify-center rounded-xl mb-5"
+            >
+              <img src="assets/images/san pham.png" alt="" class="w-[164px]" />
+              <div
+                class="absolute flex items-center justify-center opacity-0 inset-0 hover:opacity-100 transition-opacity duration-300"
+              >
+                <a
+                  href=""
+                  class="bg-opacity-50 bg-[#05422C] rounded-full text-white px-8 py-5 text-[14px]"
+                >
+                  Out Of Stock</a
+                >
+              </div>
+            </div>
+            <div class="text-center">
+              <p class="text-[#9D9EA2] text-[14px] mb-2">FLOWER</p>
+              <h3 class="text-[18px] mb-2">
+                2 Oz Deal Watermelon Zkittles + Purple Gushers
+              </h3>
+              <div
+                class="flex justify-center items-center space-x-2 text-[14px] text-center mb-4"
+              >
+                <span class="flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="#FFD700"
+                    class="lucide lucide-star"
+                  >
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                    /></svg
+                  >4.6/5</span
+                >
+                <span>|</span>
+                <span
+                  >135 <span class="text-[#C8C9CB] pl-1">Reviews</span></span
+                >
+              </div>
+              <div class="">
+                <span
+                  class="px-5 py-2 bg-[#F2F6F4] text-[#05422C] text-[12px] rounded-sm"
+                  >Indica 70%</span
+                >
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <span class="text-[#EB2606] text-[16px]">$80.00</span>
+                <span class="text-[#C8C9CB] text-[14px]">/</span>
+                <span class="text-[#C8C9CB] text-[14px]">gram</span>
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  28g
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/2lb
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/4lb
+                </button>
+              </div>
+              <div class="text-center mt-7">
+                <button
+                  class="text-white bg-[#17AF26] rounded-full px-6 py-2 text-[14px]"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lg:-mb-[171px] lg:mt-5 relative z-50">
+      <div class="container">
+        <div
+          class="flex items-center justify-between py-16 px-20 bg-[url('/assets/images/bg2.png')] rounded-2xl bg-cover lg:h-[342px]"
+        >
+          <div>
+            <h2
+              class="text-white font-semibold uppercase text-[64px]/[110%] -tracking-[4px]"
+            >
+              REFER A FRIENDS
+            </h2>
+            <div class="flex items-center space-x-5 mt-10">
+              <span class="text-white text-[32px]/[150%] -tracking-[0.5px]"
+                >And get</span
+              >
+              <span class="text-[#F2BC1B] text-[32px]/[150%] -tracking-[1.5px]"
+                >$30!</span
+              >
+            </div>
+          </div>
+          <div>
+            <button class="btn btn-lg">Refer Here</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-[64px] lg:pb-[120px] lg:pt-0 bg-[#01100B]">
+      <div class="container">
+        <div class="pt-[250px] mb-[32px] lg:px-40 lg:mb-[68px] text-center">
+          <h2 class="main-title uppercase text-white lg:pt-8">
+            HOW TO ORDER WEED ONLINE FROM TOP SHELF BC - MAIL ORDER MARIJUANA
+          </h2>
+          <p class="text-[#9D9EA2] lg:max-w-[790px] lg:pt-1">
+            Ordering weed online from Top Shelf BC is easy. We are proud to have
+            made the process accessible across multiple platforms and simple to
+            understand, meaning that more people can come to us to buy their
+            cannabis products online.
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-y-16 lg:gap-x-8 text-center"
+        >
+          <div>
+            <div class="flex justify-center w-[280px] mx-auto relative">
+              <span
+                class="absolute top-0 left-0 bg-[#F2BC1B] rounded-full inline-block w-[40px] h-[40px] text-center text-white leading-[40px]"
+                >1</span
+              >
+              <img src="./assets/icons/regiter.svg" alt="" />
+            </div>
+            <h4 class="text-white text-2xl my-5">REGISTER</h4>
+            <p class="text-[#9D9EA2]">
+              Sign up for an account with us. This is quick and simple. We don’t
+              require any more details from you than the bare minimum needed for
+              you to place an order and get your product delivered.
+            </p>
+          </div>
+          <div>
+            <div class="flex justify-center w-[280px] mx-auto relative">
+              <span
+                class="absolute top-0 left-0 bg-[#F2BC1B] rounded-full inline-block w-[40px] h-[40px] text-center text-white leading-[40px]"
+                >2</span
+              >
+              <img src="./assets/icons/shop.svg" alt="" />
+            </div>
+            <h4 class="text-white text-2xl my-5">SHOP</h4>
+            <p class="text-[#9D9EA2]">
+              Decide on what you want to purchase. We stock a wide range of
+              edibles,flowers , concentrates and mushrooms there is bound to be
+              something for everyone.
+            </p>
+          </div>
+          <div>
+            <div class="flex justify-center w-[280px] mx-auto relative">
+              <span
+                class="absolute top-0 left-0 bg-[#F2BC1B] rounded-full inline-block w-[40px] h-[40px] text-center text-white leading-[40px]"
+                >3</span
+              >
+              <img src="./assets/icons/make-payment.svg" alt="" />
+            </div>
+            <h4 class="text-white text-2xl my-5">MAKE PAYMENT</h4>
+            <p class="text-[#9D9EA2]">
+              Pay securely. Our site boasts sturdy protection certificates to
+              keep your card details and related data safe.
+            </p>
+          </div>
+          <div>
+            <div class="flex justify-center w-[280px] mx-auto relative">
+              <span
+                class="absolute top-0 left-0 bg-[#F2BC1B] rounded-full inline-block w-[40px] h-[40px] text-center text-white leading-[40px]"
+                >4</span
+              >
+              <img src="./assets/icons/relax.svg" alt="" />
+            </div>
+            <h4 class="text-white text-2xl my-5">RELAX</h4>
+            <p class="text-[#9D9EA2]">
+              Your product will be packaged discretely and shipped by Canada
+              Post Xpresspost. We will provide you with a tracking number so
+              then you can follow your mail order marijuana every step of the
+              way.
+            </p>
+          </div>
+        </div>
+        <div class="text-center mt-20">
+          <button class="btn btn-lg !px-10 h-[64px]">Choose your Weed</button>
+        </div>
+      </div>
+    </section>
+    <section class="py-[64px] lg:pt-0">
+      <div class="container">
+        <div class="lg:text-[64px] lg:pt-20 lg:font-semibold lg:w-9/12">
+          WHAT MAKES US THE
+          <span class="text-[#F2BC1B]">#1</span> ONLINE MARIJUANA DISPENSARY IN
+          CANADA?
+        </div>
+        <div class="text-[#717378] lg:w-8/12 lg:text-lg">
+          When it comes to what makes us the foremost online marijuana
+          dispensary in Canada, we could wax lyrical about our positive
+          qualities. Instead, to make this information clearer, we’ve
+          highlighted the six prioritized features that we feel makes us a cut
+          above the rest.
+        </div>
+        <div
+          class="grid grid-cols-1 lg:grid-cols-3 lg:gap-5 lg:gap-y-10 lg:mt-16"
+        >
+          <div class="border border-[#b9bbc1] rounded-xl lg:w-[379px]">
+            <div class="px-9 pt-4">
+              <img
+                src="./assets/icons/icon1.svg"
+                alt=""
+                class="lg:w-[47px] lg:[47px] py-8"
+              />
+              <div class="">
+                <h3 class="text-[24px] font-medium mt-6">CUSTOMER SERVICE</h3>
+                <p class="text-[14px] text-[##717378] mt-4 pb-7">
+                  Whether it is answering any questions you have before making a
+                  purchase, helping out with the buying process itself or taking
+                  your feedback under consideration, we are proud to provide
+                  high quality customer service that makes you – the customer –
+                  the most important person in the transaction.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="border border-[#b9bbc1] rounded-xl lg:w-[379px]">
+            <div class="px-9 pt-4">
+              <img
+                src="./assets/icons/icon2update.svg"
+                alt=""
+                class="lg:w-[47px] lg:[47px] py-8"
+              />
+              <div class="">
+                <h3 class="text-[24px] font-medium mt-6">SECURITY</h3>
+                <p class="text-[14px] text-[##717378] mt-4 pb-7">
+                  When it comes to security, we only keep what details are
+                  necessary for you to have an account with us and make an
+                  order. When it comes to shipping your mail order marijuana
+                  out, we use only tamper-proof and discrete packaging so then
+                  what you’ve purchased is your business only.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="border border-[#b9bbc1] rounded-xl lg:w-[379px]">
+            <div class="px-9 pt-4">
+              <img
+                src="./assets/icons/icon3.svg"
+                alt=""
+                class="lg:w-[47px] lg:[47px] py-8"
+              />
+              <div class="">
+                <h3 class="text-[24px] font-medium mt-6">BEST VALUE</h3>
+                <p class="text-[14px] text-[##717378] mt-4 pb-7">
+                  We are continually adjusting what we supply and our prices to
+                  ensure that we maintain an optimal balance of affordable and
+                  quality for our products. We invest in the best quality
+                  strains that we can find and are always on the lookout for
+                  new, affordable and high quality weed products.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="border border-[#b9bbc1] rounded-xl lg:w-[379px]">
+            <div class="px-9 pt-4">
+              <img
+                src="./assets/icons/icon4update.svg"
+                alt=""
+                class="lg:w-[47px] lg:[47px] py-8"
+              />
+              <div class="">
+                <h3 class="text-[24px] font-medium mt-6">DELIVERY INSURANCE</h3>
+                <p class="text-[14px] text-[##717378] mt-4 pb-7">
+                  If your mail order marijuana becomes lost, stolen, or damaged
+                  during transit, we will send you a replacement completely free
+                  of charge. Free Canada Post Xpress shipping on all orders over
+                  $120
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="border border-[#b9bbc1] rounded-xl lg:w-[379px]">
+            <div class="px-9 pt-4">
+              <img
+                src="./assets/icons/icon5update.svg"
+                alt=""
+                class="lg:w-[47px] lg:[47px] py-8"
+              />
+              <div class="">
+                <h3 class="text-[24px] font-medium mt-6">HIGHEST QUALITY</h3>
+                <p class="text-[14px] text-[##717378] mt-4 pb-7">
+                  All of our cannabis products are tested to ensure that they
+                  are the highest quality possible. We work with expert
+                  suppliers and are always revising what makes a quality
+                  cannabis product to ensure that we have only the best
+                  available.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="border border-[#b9bbc1] rounded-xl lg:w-[379px]">
+            <div class="px-9 pt-4">
+              <img
+                src="./assets/icons/icon6update.svg"
+                alt=""
+                class="lg:w-[47px] lg:[47px] py-8"
+              />
+              <div class="">
+                <h3 class="text-[24px] font-medium mt-6">TRUST</h3>
+                <p class="text-[14px] text-[##717378] mt-4 pb-7">
+                  With over 15 years in the weed business, you can rest assured
+                  that you will be taken care of. You can guarantee that we have
+                  your best interests in mind. Feel free to check out our
+                  reviews.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-[64px] lg:pb-[120px] lg:pt-0">
+      <div class="container">
+        <div class="lg:text-[64px] lg:pt-10 lg:font-semibold lg:w-9/12">
+          RECENTLY ADDED
+        </div>
+        <div
+          class="border-b-[1px] pb-[32px] lg:flex lg:items-center lg:space-x-8 lg:mt-12"
+        >
+          <div class="text-[24px]">Filter by Interest</div>
+          <div class="flex-grow">
+            <ul
+              class="flex overflow-x-auto whitespace-nowrap lg:mt-0 gap-8 lg:overflow-hidden"
+            >
+              <li class="flex-none">
+                <a
+                  href=""
+                  class="block px-5 text-[14px] h-[40px] leading-[40px] font-medium text-[#05422C] hover:bg-[#F2F6F4] border border-[#05422C] rounded-full text-center lg:h-[48px] lg:leading-[48px] transition ease-in-out duration-500"
+                  >Flowers</a
+                >
+              </li>
+              <li class="flex-none">
+                <a
+                  href=""
+                  class="block px-5 h-[40px] leading-[40px] font-medium text-[#05422C] hover:bg-[#F2F6F4] border border-[#05422C] rounded-full text-center lg:h-[48px] lg:leading-[48px] transition ease-in-out duration-500"
+                  >Mushrooms</a
+                >
+              </li>
+              <li class="flex-none">
+                <a
+                  href=""
+                  class="block px-5 h-[40px] leading-[40px] font-medium text-[#05422C] hover:bg-[#F2F6F4] border border-[#05422C] rounded-full text-center lg:h-[48px] lg:leading-[48px] transition ease-in-out duration-500"
+                  >Concentrate</a
+                >
+              </li>
+              <li class="flex-none">
+                <a
+                  href=""
+                  class="block px-5 h-[40px] leading-[40px] font-medium text-[#05422C] hover:bg-[#F2F6F4] border border-[#05422C] rounded-full text-center lg:h-[48px] lg:leading-[48px] transition ease-in-out duration-500"
+                  >Edibles</a
+                >
+              </li>
+              <li class="flex-none">
+                <a
+                  href=""
+                  class="block px-5 h-[40px] leading-[40px] font-medium text-[#05422C] hover:bg-[#F2F6F4] border border-[#05422C] rounded-full text-center lg:h-[48px] lg:leading-[48px] transition ease-in-out duration-500"
+                  >Shop All Weed</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="ml-auto">
+            <a href="" class="underline text-[#17AF26] text-[16px]">Show All</a>
+          </div>
+        </div>
+        <div class="lg:grid lg:grid-cols-4 lg:gap-6 lg:gap-y-7 lg:mt-14">
+          <div class="w-[280px] bg-white">
+            <div
+              class="relative bg-[#F4F4F4] h-[240px] flex items-center justify-center rounded-xl mb-5"
+            >
+              <img src="assets/images/san pham.png" alt="" class="w-[164px]" />
+              <div
+                class="absolute flex items-center justify-center opacity-0 inset-0 hover:opacity-100 transition-opacity duration-300"
+              >
+                <a
+                  href=""
+                  class="bg-opacity-50 bg-[#05422C] rounded-full text-white px-8 py-5 text-[14px]"
+                >
+                  Out Of Stock</a
+                >
+              </div>
+              <div
+                class="absolute top-0 left-0 px-4 py-2 text-sm text-white bg-[#F2BC1B] rounded-tl-xl"
+              >
+                $60 ounce
+              </div>
+            </div>
+            <div class="text-center">
+              <p class="text-[#9D9EA2] text-[14px] mb-2">FLOWER</p>
+              <h3 class="text-[18px] mb-2">
+                2 Oz Deal Watermelon Zkittles + Purple Gushers
+              </h3>
+              <div
+                class="flex justify-center items-center space-x-2 text-[14px] text-center mb-4"
+              >
+                <span class="flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="#FFD700"
+                    class="lucide lucide-star"
+                  >
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                    /></svg
+                  >4.6/5</span
+                >
+                <span>|</span>
+                <span
+                  >135 <span class="text-[#C8C9CB] pl-1">Reviews</span></span
+                >
+              </div>
+              <div class="">
+                <span
+                  class="px-5 py-2 bg-[#F2F6F4] text-[#05422C] text-[12px] rounded-sm"
+                  >Indica 70%</span
+                >
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <span class="text-[#EB2606] text-[16px]">$80.00</span>
+                <span class="text-[#C8C9CB] text-[14px]">/</span>
+                <span class="text-[#C8C9CB] text-[14px]">gram</span>
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  28g
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/2lb
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/4lb
+                </button>
+              </div>
+              <div class="text-center mt-7">
+                <button
+                  class="text-white bg-[#17AF26] rounded-full px-6 py-2 text-[14px]"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-[280px] bg-white">
+            <div
+              class="relative bg-[#F4F4F4] h-[240px] flex items-center justify-center rounded-xl mb-5"
+            >
+              <img src="assets/images/san pham.png" alt="" class="w-[164px]" />
+              <div
+                class="absolute flex items-center justify-center opacity-0 inset-0 hover:opacity-100 transition-opacity duration-300"
+              >
+                <a
+                  href=""
+                  class="bg-opacity-50 bg-[#05422C] rounded-full text-white px-8 py-5 text-[14px]"
+                >
+                  Out Of Stock</a
+                >
+              </div>
+            </div>
+            <div class="text-center">
+              <p class="text-[#9D9EA2] text-[14px] mb-2">FLOWER</p>
+              <h3 class="text-[18px] mb-2">
+                2 Oz Deal Watermelon Zkittles + Purple Gushers
+              </h3>
+              <div
+                class="flex justify-center items-center space-x-2 text-[14px] text-center mb-4"
+              >
+                <span class="flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="#FFD700"
+                    class="lucide lucide-star"
+                  >
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                    /></svg
+                  >4.6/5</span
+                >
+                <span>|</span>
+                <span
+                  >135 <span class="text-[#C8C9CB] pl-1">Reviews</span></span
+                >
+              </div>
+              <div class="">
+                <span
+                  class="px-5 py-2 bg-[#F2F6F4] text-[#05422C] text-[12px] rounded-sm"
+                  >Indica 70%</span
+                >
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <span class="text-[#EB2606] text-[16px]">$80.00</span>
+                <span class="text-[#C8C9CB] text-[14px]">/</span>
+                <span class="text-[#C8C9CB] text-[14px]">gram</span>
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  28g
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/2lb
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/4lb
+                </button>
+              </div>
+              <div class="text-center mt-7">
+                <button
+                  class="text-white bg-[#17AF26] rounded-full px-6 py-2 text-[14px]"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-[280px] bg-white">
+            <div
+              class="relative bg-[#F4F4F4] h-[240px] flex items-center justify-center rounded-xl mb-5"
+            >
+              <img src="assets/images/san pham.png" alt="" class="w-[164px]" />
+              <div
+                class="absolute flex items-center justify-center opacity-0 inset-0 hover:opacity-100 transition-opacity duration-300"
+              >
+                <a
+                  href=""
+                  class="bg-opacity-50 bg-[#05422C] rounded-full text-white px-8 py-5 text-[14px]"
+                >
+                  Out Of Stock</a
+                >
+              </div>
+            </div>
+            <div class="text-center">
+              <p class="text-[#9D9EA2] text-[14px] mb-2">FLOWER</p>
+              <h3 class="text-[18px] mb-2">
+                2 Oz Deal Watermelon Zkittles + Purple Gushers
+              </h3>
+              <div
+                class="flex justify-center items-center space-x-2 text-[14px] text-center mb-4"
+              >
+                <span class="flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="#FFD700"
+                    class="lucide lucide-star"
+                  >
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                    /></svg
+                  >4.6/5</span
+                >
+                <span>|</span>
+                <span
+                  >135 <span class="text-[#C8C9CB] pl-1">Reviews</span></span
+                >
+              </div>
+              <div class="">
+                <span
+                  class="px-5 py-2 bg-[#F2F6F4] text-[#05422C] text-[12px] rounded-sm"
+                  >Indica 70%</span
+                >
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <span class="text-[#EB2606] text-[16px]">$80.00</span>
+                <span class="text-[#C8C9CB] text-[14px]">/</span>
+                <span class="text-[#C8C9CB] text-[14px]">gram</span>
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  28g
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/2lb
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/4lb
+                </button>
+              </div>
+              <div class="text-center mt-7">
+                <button
+                  class="text-white bg-[#17AF26] rounded-full px-6 py-2 text-[14px]"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="w-[280px] bg-white">
+            <div
+              class="relative bg-[#F4F4F4] h-[240px] flex items-center justify-center rounded-xl mb-5"
+            >
+              <img src="assets/images/san pham.png" alt="" class="w-[164px]" />
+              <div
+                class="absolute flex items-center justify-center opacity-0 inset-0 hover:opacity-100 transition-opacity duration-300"
+              >
+                <a
+                  href=""
+                  class="bg-opacity-50 bg-[#05422C] rounded-full text-white px-8 py-5 text-[14px]"
+                >
+                  Out Of Stock</a
+                >
+              </div>
+            </div>
+            <div class="text-center">
+              <p class="text-[#9D9EA2] text-[14px] mb-2">FLOWER</p>
+              <h3 class="text-[18px] mb-2">
+                2 Oz Deal Watermelon Zkittles + Purple Gushers
+              </h3>
+              <div
+                class="flex justify-center items-center space-x-2 text-[14px] text-center mb-4"
+              >
+                <span class="flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="#FFD700"
+                    class="lucide lucide-star"
+                  >
+                    <polygon
+                      points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                    /></svg
+                  >4.6/5</span
+                >
+                <span>|</span>
+                <span
+                  >135 <span class="text-[#C8C9CB] pl-1">Reviews</span></span
+                >
+              </div>
+              <div class="">
+                <span
+                  class="px-5 py-2 bg-[#F2F6F4] text-[#05422C] text-[12px] rounded-sm"
+                  >Indica 70%</span
+                >
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <span class="text-[#EB2606] text-[16px]">$80.00</span>
+                <span class="text-[#C8C9CB] text-[14px]">/</span>
+                <span class="text-[#C8C9CB] text-[14px]">gram</span>
+              </div>
+              <div class="flex items-center justify-center space-x-2 mt-5">
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  28g
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/2lb
+                </button>
+                <button
+                  class="text-[12px] px-2 py-1 text-black border-[#F4F4F4] rounded-md border-[1px]"
+                >
+                  1/4lb
+                </button>
+              </div>
+              <div class="text-center mt-7">
+                <button
+                  class="text-white bg-[#17AF26] rounded-full px-6 py-2 text-[14px]"
+                >
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lg:pb-[70px]">
+      <div class="container border-t-[1px] border-[#717378]">
+        <div class="lg:grid lg:grid-cols-3 lg:pt-[60px]">
+          <div class="border-[1px] lg:w-[379px] lg:h-auto mx-auto">
+            <div
+              class="bg-[#F2F6F4] flex justify-center items-center mx-auto mt-8 lg:w-[315px] lg:h-[240px]"
+            >
+              <img src="./assets/icons/indica.svg" alt="" />
+            </div>
+            <div class="lg:pt-5 mx-auto lg:w-[315px]">
+              <h2 class="lg:text-[32px] lg:font-semibold mt-3">Indica</h2>
+              <p class="text-[14px] text-[#717378] pt-3">
+                This type of cannabis is commonly taken by those who want to
+                sink into a state of total relaxation in every limb. This
+                reduces stress overall and can take your worries and fatigue
+                away. Because of its relaxing effects, it is suggested to use
+                this type of cannabis at night. It is particularly recommended
+                for people who have trouble sleeping, be it due to insomnia,
+                pain or other associated sleep issues.
+              </p>
+              <div class="py-8">
+                <a href="" class="underline text-[#17AF26] text-[16px]"
+                  >Shop Indica</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="border-[1px] lg:w-[379px] lg:h-auto mx-auto">
+            <div
+              class="bg-[#F2F6F4] flex justify-center items-center mx-auto mt-8 lg:w-[315px] lg:h-[240px]"
+            >
+              <img src="./assets/icons/sative.svg" alt="" />
+            </div>
+            <div class="lg:pt-5 mx-auto lg:w-[315px]">
+              <h2 class="lg:text-[32px] lg:font-semibold mt-3">Sativa</h2>
+              <p class="text-[14px] text-[#717378] pt-3">
+                Contrary to the deep all-body relaxation that comes with the use
+                of indica strains, sativas are known for increasing the feeling
+                of creativity, enhancing focus and lessening anxiety. This is
+                more of a mind-centered high in terms of how and where you will
+                feel the effects. Given its stimulating nature, it is
+                recommended to use this during the day.
+              </p>
+              <div class="py-8">
+                <a href="" class="underline text-[#17AF26] text-[16px]"
+                  >Shop Sativa</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="border-[1px] lg:w-[379px] lg:h-auto mx-auto">
+            <div
+              class="bg-[#F2F6F4] flex justify-center items-center mx-auto mt-8 lg:w-[315px] lg:h-[240px]"
+            >
+              <img src="./assets/icons/hybrids.svg" alt="" />
+            </div>
+            <div class="lg:pt-5 mx-auto lg:w-[315px]">
+              <h2 class="lg:text-[32px] lg:font-semibold mt-3">Hybrids</h2>
+              <p class="text-[14px] text-[#717378] pt-3">
+                Hybrid strains are just that – they combine the head-focused
+                high effects of sativas with the bodily relaxation of indicas.
+                This is ideal for people who really want to sooth any fatigue
+                and worries while also clearing the mind ready to focus fresh on
+                something new. Hybrids are expertly tailored to result in
+                strains with specific effects. Useful strain vocabulary to
+                familiarize yourself with when it comes to hybrids includes
+                sativa-dominant (full, bodily relaxation), indica-dominant
+                (boosting creativity, increasing mood and lessening anxiety) and
+                balanced (the best of both worlds).
+              </p>
+              <div class="py-8">
+                <a href="" class="underline text-[#17AF26] text-[16px]"
+                  >Shop Hybrids</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-[#F4F4F4] lg:pb-[330px]">
+      <div class="container">
+        <div
+          class="border-b-[1px] border-[#717378] pb-[32px] lg:pt-[120px] lg:flex lg:items-center lg:justify-between lg:mt-12"
+        >
+          <div class="lg:text-[32px] lg:font-semibold">WEED EDUCATION</div>
+          <div>
+            <a href="" class="underline text-[#17AF26] text-[16px]">Show All</a>
+          </div>
+        </div>
+        <div class="lg:grid lg:grid-cols-3 lg:pt-[60px]">
+          <div class="lg:w-[378.67px] lg:h-auto">
+            <div class="">
+              <img
+                src="./assets/images/image 17.png"
+                alt=""
+                class="lg:w-[378.67px] lg:h-[240px]"
+              />
+            </div>
+            <div class="lg:w-[378.67px] items-start">
+              <p class="pt-6 text-[14px] text-[#717378]">January 24, 2023</p>
+              <h2 class="lg:text-[24px] lg:font-medium lg:pt-2">
+                12 Mistakes To Avoid When Buying Cannabis Online
+              </h2>
+              <p class="text-[16px] text-[#717378] pt-3">
+                Buying cannabis online can be a great way to get your hands on
+                the products you need without leaving the comfort of your home.
+                But …
+              </p>
+              <div class="py-8">
+                <a href="" class="underline text-[#17AF26] text-[16px]"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-[378.67px] lg:h-auto">
+            <div class="">
+              <img
+                src="./assets/images/image 18.png"
+                alt=""
+                class="lg:w-[378.67px] lg:h-[240px]"
+              />
+            </div>
+            <div class="lg:w-[378.67px] items-start">
+              <p class="pt-6 text-[14px] text-[#717378]">January 20, 2023</p>
+              <h2 class="lg:text-[24px] lg:font-medium lg:pt-2">
+                How To Store Cannabis and Keep it Fresh and Potent?
+              </h2>
+              <p class="text-[16px] text-[#717378] pt-3">
+                Cannabis packaging has advanced dramatically in recent years,
+                whether your state has a medicinal marijuana programme, legal
+                adult-use weed, or both. Most ...
+              </p>
+              <div class="py-8">
+                <a href="" class="underline text-[#17AF26] text-[16px]"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-[378.67px] lg:h-auto">
+            <div class="">
+              <img
+                src="./assets/images/image 19.png"
+                alt=""
+                class="lg:w-[378.67px] lg:h-[240px]"
+              />
+            </div>
+            <div class="lg:w-[378.67px] items-start">
+              <p class="pt-6 text-[14px] text-[#717378]">January 19, 2023</p>
+              <h2 class="lg:text-[24px] lg:font-medium lg:pt-2">
+                The Ultimate Guide to Checking the Quality of Cannabis – 10
+                Industry Leading Tips
+              </h2>
+              <p class="text-[16px] text-[#717378] pt-3">
+                Quality cannabis is a term used to describe cannabis products
+                that meet specific standards of excellence. It is essential to
+                understand what quality cannabis means, …
+              </p>
+              <div class="py-8">
+                <a href="" class="underline text-[#17AF26] text-[16px]"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lg:mt-[-253px] relative z-100">
+      <div class="container">
+        <div
+          class="bg-[#05422C] lg:h-[458px] mb-[-250px] p-8 lg:p-16 rounded-2xl"
+        >
+          <h2
+            class="text-[32px]/[120%] -tracking-[1.5px] lg:text-[64px]/[110%] lg:-tracking-[4px] text-white font-semibold uppercase"
+          >
+            UNLOCK 20% OFF YOUR <br class="hidden lg:block" />FIRST ORDER
+          </h2>
+          <p class="text-xl text-[#C3D2CC] my-6">
+            Reveal coupon code by entering your email
+          </p>
+          <form
+            action=""
+            class="border-t border-[#346654] pt-8 flex items-center space-x-8"
+          >
+            <input
+              type="text"
+              class="w-full border border-[#346654] rounded-full p-4 lg:p-6"
+              placeholder="Email Address"
+            />
+            <button class="btn !h-[72px] min-w-[160px]">Reveal coupon</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-[#13191E]">
+      <div class="container">
+        <div class="grid lg:grid-cols-12 gap-8 lg:pt-[380px]">
+          <div class="lg:col-span-4">
+            <img src="./assets/images/logo.svg" alt="" />
+            <p class="text-[#9D9EA2] mt-8 font-normal">
+              #1 Canadian top rated online dispensary that meets the customers
+              needs in every single medical marijuana aspect. The team here at
+              TopShelfBC is heavily involved in the Canadian cannabis industry
+              for over 15 years. We strive to provide the top quality products,
+              service and care at the lowest prices you’ll ever find.
+            </p>
+          </div>
+          <div class="lg:col-span-8">
+            <div class="mb-4">
+              <h2 class="text-xl text-white uppercase mb-5">Quick Link</h2>
+              <ul class="columns-2 *:mb-4">
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm">Track Your Order</a>
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm">Shop All</a>
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm">Flower</a>
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm">Edibles</a>
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm">Concentrates</a>
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm">Refunds</a>
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm">Mushrooms</a>
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm"
+                    >Promotions / Bundles</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm">Support</a>
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm">Reward</a>
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm">Blog</a>
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm">Shipping Faq</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mb-4">
+              <h2 class="text-xl text-white uppercase mb-5">CONTACT US</h2>
+              <ul>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm"
+                    >info@topshelfbc.cc</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="mb-4">
+              <h2 class="text-xl text-white uppercase mb-5">More</h2>
+              <ul class="columns-2 *:mb-4">
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm"
+                    >Buy weed online in Canada</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm"
+                    >Buy weed online in New Brunswick</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm"
+                    >Buy weed online in Prince Edward Island</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm"
+                    >Buy weed online in Northwest Territories</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm"
+                    >Buy weed online in Saskatchewan</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm"
+                    >Buy weed online in Manitoba</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm"
+                    >Buy weed online in Quitebec</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm"
+                    >Buy weed online in British Columbia</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm"
+                    >Buy weed online in Ontario</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="text-[#9D9EA2] text-sm"
+                    >Buy weed online in Alberta</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <img src="./assets/images/payment.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="flex flex-col lg:flex-row items-center lg:justify-between border-t border-[#46494F] py-8 mt-8"
+        >
+          <p class="order-2 lg:order-1 text-[#9D9EA2] text-sm">
+            © 2022 Top Shelf BC. All Rights Reserved.
+          </p>
+          <ul class="order-1 lg:order-2 flex items-center space-x-5">
+            <li><a href="" class="text-[#9D9EA2] text-sm">Out Of Stock</a></li>
+            <li>
+              <a href="" class="text-[#9D9EA2] text-sm">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="" class="text-[#9D9EA2] text-sm">Terms & Conditions</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./assets/js/jquery.start-rating.svg.js"></script>
+    <script src="assets/js/jquery.star-rating-svg.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
